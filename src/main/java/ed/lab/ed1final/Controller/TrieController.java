@@ -37,6 +37,7 @@ public class TrieController {
     }
 
 
+
     @DeleteMapping("/{word}")
     public ResponseEntity<Void> deleteWord(@PathVariable String word) {
         trie.erase(word);

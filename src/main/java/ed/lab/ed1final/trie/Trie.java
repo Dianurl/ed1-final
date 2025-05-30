@@ -13,6 +13,7 @@ public class Trie {
         int countword = 0;
     }
 
+
     public boolean isEmpty() {
         return root.countprefix == 0;
     }
